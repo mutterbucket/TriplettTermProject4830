@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\a2tri\Documents\Software Engineering\Individual Project\TriplettTermProject4830\workspaceCSCI4830-tech-excercise-Triplett\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3861812793.index
+1400136593.index
+2352663837.index
+4230393045.index
+3873040078.index
