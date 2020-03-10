@@ -37,24 +37,28 @@ footer {
 </header>
 
 <nav>
-<a href="/techExcerciseTriplett/add_name.html">Add Pet Name</a> <br>
-<a href="/techExcerciseTriplett/leaderboard.html">Leaderboard</a> <br>
+<a href="/individualExcerciseTriplett/add_name.html">Add Pet Name</a> <br>
 </nav>
 
 <section>
 	<h1>Search Pet Names</h1>
 	
-	<form action="SearchNames" method="POST">
+	<form action="HomeSearch" method="POST">
 		<label for="pets">Choose An Animal: </label>
-		<select id="pets">
+		<select id="pet" name="pets">
   			<option value="cat">Cat</option>
   			<option value="dog">Dog</option>
-  			<option value="bird">Bird</option>
 		</select>
     	<br><br>
 		Enter Pet Name: <input type="text" name="keyword"> <br />
 		
 		<input type="submit" value="Search" />
+	</form> <br> <br>
+	
+	<form action="Leaderboard" method="POST">
+		<label for="submit">View the top 10: </label>
+		<br>
+		<input type="submit" value="Leaderboard" />
 	</form>
 
 </section>
